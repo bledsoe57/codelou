@@ -76,7 +76,7 @@ footer a {
     list-style-type: none;
 }
 
-.start-button {
+.start-button a {
     text-decoration: none;
     background-color: grey;
 }
