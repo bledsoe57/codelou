@@ -1,3 +1,7 @@
+/* 
+    General Styles
+*/
+
 * {
     text-align: center;
     box-sizing: border-box;
@@ -45,6 +49,10 @@ header li {
 
 }
 
+/*
+    Main Content Styles
+*/
+
 body {
     width: 100%;
 }
@@ -66,4 +74,9 @@ footer a {
 
 .footer-nav {
     list-style-type: none;
+}
+
+.start-button {
+    text-decoration: none;
+    background-color: grey;
 }
