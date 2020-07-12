@@ -5,6 +5,7 @@
 * {
     text-align: center;
     box-sizing: border-box;
+    cursor: url(./Pictures/sword.png), auto;
 }
 
 a:hover {
@@ -89,7 +90,6 @@ body {
     border: 3px solid #f1f1f1;
     background-color: rgba(0, 0, 0); 
     background-color: rgba(82, 81, 81, 0.6);
-    
 }
 
 .start-button a {
