@@ -12,7 +12,8 @@ a:hover {
 }
 
 a:visited {
-    color: black;
+    color:inherit;
+    
 }
 
 /*
@@ -20,11 +21,11 @@ a:visited {
 */
 
 .menu {
-    background-color: grey;
+    background-color: black;
 }
 
 .main-nav {
-    
+    display: inline-block;
 }
 
 header {
@@ -64,8 +65,8 @@ body {
     -webkit-filter: blur(8px); */
     background-size: cover;
     height: 100%;
-    
-    
+    padding-bottom: 8em;
+    padding-top: 8em;
 }
 
 .main-title {
@@ -83,7 +84,6 @@ body {
     font-weight: normal;
     margin: 0;
     margin-bottom: .25em;
-    margin-top: -.75em;
     position: center;
     padding: 15px;
     border: 3px solid #f1f1f1;
@@ -101,17 +101,20 @@ body {
 */
 
 footer {
-    background-color: grey;
+    background-color: black;
     overflow: auto;
+    color: white;
 }
 
 footer a {
-    color: inherit;
+    color: white;
     text-decoration: none;
+    
 }
 
 .footer-nav {
     list-style-type: none;
+    color: white;
 }
 
 /*
