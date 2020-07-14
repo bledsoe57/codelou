@@ -1,6 +1,8 @@
 <!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>
             Adventure Quest | Character Creation
         </title>
@@ -15,6 +17,24 @@
         </div>
     </header>
     <body>
-       
+       <div class="form-background">
+            <h2>Design Your Character</h2>
+            <p class="form-description">Filling out these questions about your character will help give you a more personalized story.<br>
+                Please use <b>ONLY</b> letters and numbers when filling out the form.</p>
+            <form action="story.html" class="form-input">
+                <label for="allname">Full Name</label>
+                <input type="text" id="allname" name="allname"><br>
+                <label for="bfood">Favorite Breakfast Food</label>
+                <input type="text" id="bfood" name="bfood"><br>
+                <label for="fcolor">Favorite Color</label>
+                <input type="text" id="fcolor" name="fcolor"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+       </div>
     </body>
+    <footer>
+        <div class="author">
+            <h3>Website by Austin Beam <a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-github"></a></h3>
+        </div>
+    </footer>
 </html>
