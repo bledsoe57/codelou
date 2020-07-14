@@ -8,10 +8,6 @@
     cursor: url(./Pictures/sword.png), auto;
 }
 
-a:hover {
-    color: purple;
-}
-
 a:visited {
     color:inherit;
     
@@ -82,6 +78,7 @@ body {
 } 
 
 .start-button {
+    display: block;
     font-weight: normal;
     margin: 0;
     margin-bottom: .25em;
@@ -90,6 +87,10 @@ body {
     border: 3px solid #f1f1f1;
     background-color: rgba(0, 0, 0); 
     background-color: rgba(82, 81, 81, 0.6);
+}
+
+.start-button:hover {
+    
 }
 
 .start-button a {
@@ -157,6 +158,28 @@ footer a {
 .footer-nav {
     list-style-type: none;
     color: white;
+}
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: .7;
+}
+
+.fa-linkedin {
+    background-color: #0077B5;
+    margin-right: 2.5px;
+}
+
+.fa-github {
+    background-color: #24292E;
+    margin-left: 2.5px;
 }
 
 /*
