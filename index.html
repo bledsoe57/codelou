@@ -8,13 +8,31 @@
         </title>
     </head>
     <header>
+        <button type="button" class="collapsible">Menu</button>
         <div class="menu">
             <ul class="main-nav">
                 <a href="index.html"><li>Home</li></a>
                 <a href="faq.html"><li>FAQ</li></a>
                 <a href="about.html"><li>About</li></a>
             </ul>
-        </div>   
+        </div>
+        <!-- Menu Button Functionality -->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            }
+        </script>
     </header>
     <body>
         <div class="body-wrapper">
