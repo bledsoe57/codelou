@@ -73,7 +73,7 @@ body {
 .main-title {
     font-family: fantasy, Arial, sans-serif;
     font-size: 300%;
-    text-shadow: 1.75px 1px #290004;
+    text-shadow: 1.75px 1px 8px #5e5354;
     font-weight: bold;
     padding: 20px;
     text-align: center;
