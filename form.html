@@ -8,6 +8,7 @@
         </title>
     </head>
     <header>
+        <button type="button" class="collapsible">Menu</button>
         <div class="menu">
             <ul class="main-nav">
                 <a href="index.html"><li>Home</li></a>
@@ -15,11 +16,28 @@
                 <a href="about.html"><li>About</li></a>
             </ul>
         </div>
+        <!-- Menu Button Functionality -->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            }
+        </script>
     </header>
     <body>
        <div class="form-background">
             <h2>Design Your Character</h2>
-            <p class="form-description">Filling out these questions about your character will help give you a more personalized story.<br>
+            <p class="form-description">Filling out these questions about your character will help give you a more personalized story.
                 Please use <b>ONLY</b> letters and numbers when filling out the form.</p>
             <form action="story.html" class="form-input">
                 <label for="allname">Full Name</label>
