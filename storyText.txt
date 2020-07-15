@@ -1,0 +1,51 @@
+Adventure Quest Story Board
+
+Text1:
+There was once a young {gender} named {name}. {name} awoke to
+the sound of a loud BANG outside.
+
+Choice1:
+A. Hide
+B. Investigate
+
+Text2.A:
+{name} hid in their wardrobe but accidently got locked in.
+
+-End
+
+Text2.B:
+You looked out the window to see what was happening. You saw
+a group of adventurers huddled around an overturned cart, filled
+with {metalObject}.
+The wheel must have broken.
+
+Choice2:
+A. Offer to help repair the cart.
+B. Scold them for making a loud racket.
+
+Text3.A:
+The adventurers gladly accept your help. The leader, {protag}, asks
+if you'd like to join them on their adventure!
+
+Text3.B:
+You begin yelling at the adventurers for waking you up but they ignore
+your complaints until you give up and wonder back inside.
+
+-End
+
+Choice3:
+A. "An adventure? What are you crazy??"
+B. "An adventure? Count me in!
+
+Text4.A:
+"Well you're no fun..." says {protag} as he and his group of ragtag
+adventurers head off into the direction of the forbidden {destination}. "Good riddance!"
+you proclaim as you turn around and slam the door to your house.
+
+-End
+
+Text4.B:
+{protag}'s face lights up you join in step with the whole ragtag group on
+their way to the forbidden {destination}.
+
+-End
