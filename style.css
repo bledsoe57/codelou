@@ -128,25 +128,31 @@ body {
     padding-top: 8em;
 }
 
+.form-content {
+    border: 3px solid #f1f1f1;
+    background-color: rgba(82, 81, 81);
+    background-color: rgba(82, 81, 81, 0.6);
+    max-width: 75%;
+    margin: auto;
+}
+
 h2 {
     display: inline-block;
     margin-top: .25em;
     font-family: fantasy, arial, sans-serif;
     font-size: 300%;
     text-align: center;
-    border: 3px solid #f1f1f1;
     padding-left: 2em;
     padding-right: 2em;
-    background-color: rgba(82, 81, 81);
-    background-color: rgba(82, 81, 81, 0.6);
+    text-decoration: underline;
 }
 
 .form-description {
-    color: white;
     margin-top: -1.5em;
     margin-left: 2em;
     margin-right: 2em;
     align-content: center;
+    font-weight: bold;
     /*
     background-color: rgba(82, 81, 81);
     background-color: rgba(82, 81, 81, 0.6); */
@@ -159,6 +165,7 @@ h2 {
     background-color: rgba(82, 81, 81);
     background-color: rgba(82, 81, 81, 0.6);
     border-top: 4px solid black;
+    font-weight: bold;
 }
 
 /*
