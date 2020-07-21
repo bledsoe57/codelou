@@ -39,21 +39,15 @@ a:visited {
     background-color: rgba(0,0,0); */
 }
 
-.menu:hover {
-    background-color: grey;
-}
-
 .active, .collapsible:hover {
     background-color: #24292E;
   }
 
 .main-nav {
-    /*
-    display: flex;
-    flex-direction: row; */
     width: 100%;
     padding: auto;
     margin: auto;
+    display: table;
 }
 
 header {
@@ -72,9 +66,17 @@ header a:hover {
 
 header li {
     list-style-type: none;
-    width: 100%;
-    /*
-    font-size: 200%; */
+    font-size: 200%;
+    display: inline;
+    padding: 4em;
+}
+
+header li:hover {
+    background-color: grey;
+}
+
+header ul {
+    padding: 0;
 }
 
 /*
