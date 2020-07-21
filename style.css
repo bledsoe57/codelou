@@ -83,31 +83,45 @@ header ul {
     Main Content Styles | Index
 */
 
-body {
+body, html {
     height: 100%;
     margin: 0;
 }
 
-.main-title-background {
+.main-background {
+  /* The image used */
     background-image: url(./Pictures/cobble.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    /*
-    filter: blur(8px); */
-    background-size: cover;
-    height: 100%;
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
     padding-bottom: 8em;
     padding-top: 8em;
 }
 
 .main-title {
-    font-family: fantasy, Arial, sans-serif;
-    font-size: 300%;
-    text-shadow: 1.75px 1px 8px #5e5354;
-    font-weight: bold;
-    padding: 20px;
-    text-align: center;
-    text-decoration: underline;
+/*    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 } 
 
 .start-button {
