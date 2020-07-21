@@ -48,10 +48,12 @@ a:visited {
   }
 
 .main-nav {
-    display: inline-block;
+    /*
+    display: flex;
+    flex-direction: row; */
     width: 100%;
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
 }
 
 header {
@@ -69,7 +71,7 @@ header a:hover {
 }
 
 header li {
-    display: inline-block;
+    list-style-type: none;
     width: 100%;
     /*
     font-size: 200%; */
